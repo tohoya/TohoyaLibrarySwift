@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char tohoyaLibraryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <tohoyaLibrary/PublicHeader.h>
 
-#import <tohoyaLibrary/tohoyaLibrary-Swift-Bridging-Header.h>
+#import <tohoyaLibrary/MBProgressHUDForSwift-Bridging-Header.h>
+
