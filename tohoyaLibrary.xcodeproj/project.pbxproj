@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998753301DD86AF500662F6D /* JwConnectionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987532F1DD86AF500662F6D /* JwConnectionJson.swift */; };
+		998753321DD86BE100662F6D /* JwConnectionSessionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753311DD86BE100662F6D /* JwConnectionSessionJson.swift */; };
+		998753341DD86BF900662F6D /* JwUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753331DD86BF900662F6D /* JwUtility.swift */; };
+		998753361DD86C0D00662F6D /* JwWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753351DD86C0D00662F6D /* JwWebViewController.swift */; };
+		998753381DD86C2D00662F6D /* JwWebViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753371DD86C2D00662F6D /* JwWebViewNavigationController.swift */; };
+		9987533A1DD86C4000662F6D /* JwWkWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753391DD86C4000662F6D /* JwWkWebViewController.swift */; };
+		998753461DD86C5E00662F6D /* LHWebViewMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9987533B1DD86C5D00662F6D /* LHWebViewMedia.xcassets */; };
+		998753491DD86C5E00662F6D /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987533E1DD86C5D00662F6D /* MBProgressHUD.swift */; };
+		9987534A1DD86C5E00662F6D /* MBProgressHUDForSwift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9987533F1DD86C5D00662F6D /* MBProgressHUDForSwift-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9987534B1DD86C5E00662F6D /* NSObject+PerformForSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9987534C1DD86C5E00662F6D /* NSObject+PerformForSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */; };
+		9987534D1DD86C5E00662F6D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753421DD86C5D00662F6D /* Reachability.swift */; };
+		9987534E1DD86C5E00662F6D /* Reavhability.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753431DD86C5D00662F6D /* Reavhability.h */; };
+		998753A21DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999E4B391DD83A010085C437 /* tohoyaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 999E4B371DD83A010085C437 /* tohoyaLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99106D9A1DD8B74400F66E5B /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		99106D9B1DD8B80D00F66E5B /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphoneos.modulemap; path = tohoyaLibrary/iphoneos.modulemap; sourceTree = "<group>"; };
+		99106D9C1DD8B83900F66E5B /* iphonesimulator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphonesimulator.modulemap; path = tohoyaLibrary/iphonesimulator.modulemap; sourceTree = "<group>"; };
+		99106D9D1DD8B85400F66E5B /* macosx.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = macosx.modulemap; path = tohoyaLibrary/macosx.modulemap; sourceTree = "<group>"; };
+		9987532F1DD86AF500662F6D /* JwConnectionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwConnectionJson.swift; sourceTree = "<group>"; };
+		998753311DD86BE100662F6D /* JwConnectionSessionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwConnectionSessionJson.swift; sourceTree = "<group>"; };
+		998753331DD86BF900662F6D /* JwUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwUtility.swift; sourceTree = "<group>"; };
+		998753351DD86C0D00662F6D /* JwWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwWebViewController.swift; sourceTree = "<group>"; };
+		998753371DD86C2D00662F6D /* JwWebViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwWebViewNavigationController.swift; sourceTree = "<group>"; };
+		998753391DD86C4000662F6D /* JwWkWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwWkWebViewController.swift; sourceTree = "<group>"; };
+		9987533B1DD86C5D00662F6D /* LHWebViewMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LHWebViewMedia.xcassets; sourceTree = "<group>"; };
+		9987533E1DD86C5D00662F6D /* MBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
+		9987533F1DD86C5D00662F6D /* MBProgressHUDForSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUDForSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformForSwift.h"; sourceTree = "<group>"; };
+		998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformForSwift.m"; sourceTree = "<group>"; };
+		998753421DD86C5D00662F6D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		998753431DD86C5D00662F6D /* Reavhability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reavhability.h; sourceTree = "<group>"; };
+		998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tohoyaLibrary-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		999E4B341DD83A010085C437 /* tohoyaLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tohoyaLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999E4B371DD83A010085C437 /* tohoyaLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tohoyaLibrary.h; sourceTree = "<group>"; };
+		999E4B381DD83A010085C437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		999E4B301DD83A010085C437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99106D9E1DD8B88D00F66E5B /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				99106D9B1DD8B80D00F66E5B /* iphoneos.modulemap */,
+				99106D9C1DD8B83900F66E5B /* iphonesimulator.modulemap */,
+				99106D9D1DD8B85400F66E5B /* macosx.modulemap */,
+			);
+			name = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		999E4B2A1DD83A010085C437 = {
+			isa = PBXGroup;
+			children = (
+				99106D9E1DD8B88D00F66E5B /* CommonCrypto */,
+				999E4B361DD83A010085C437 /* tohoyaLibrary */,
+				999E4B351DD83A010085C437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		999E4B351DD83A010085C437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				999E4B341DD83A010085C437 /* tohoyaLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		999E4B361DD83A010085C437 /* tohoyaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				999E4B371DD83A010085C437 /* tohoyaLibrary.h */,
+				999E4B381DD83A010085C437 /* Info.plist */,
+				9987532F1DD86AF500662F6D /* JwConnectionJson.swift */,
+				998753311DD86BE100662F6D /* JwConnectionSessionJson.swift */,
+				998753331DD86BF900662F6D /* JwUtility.swift */,
+				998753351DD86C0D00662F6D /* JwWebViewController.swift */,
+				998753371DD86C2D00662F6D /* JwWebViewNavigationController.swift */,
+				998753391DD86C4000662F6D /* JwWkWebViewController.swift */,
+				9987533B1DD86C5D00662F6D /* LHWebViewMedia.xcassets */,
+				9987533E1DD86C5D00662F6D /* MBProgressHUD.swift */,
+				9987533F1DD86C5D00662F6D /* MBProgressHUDForSwift-Bridging-Header.h */,
+				998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */,
+				998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */,
+				998753421DD86C5D00662F6D /* Reachability.swift */,
+				998753431DD86C5D00662F6D /* Reavhability.h */,
+				998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */,
+				99106D9A1DD8B74400F66E5B /* CommonCrypto.xcconfig */,
+			);
+			path = tohoyaLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		999E4B311DD83A010085C437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9987534E1DD86C5E00662F6D /* Reavhability.h in Headers */,
+				998753A21DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h in Headers */,
+				999E4B391DD83A010085C437 /* tohoyaLibrary.h in Headers */,
+				9987534B1DD86C5E00662F6D /* NSObject+PerformForSwift.h in Headers */,
+				9987534A1DD86C5E00662F6D /* MBProgressHUDForSwift-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		999E4B331DD83A010085C437 /* tohoyaLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999E4B3C1DD83A010085C437 /* Build configuration list for PBXNativeTarget "tohoyaLibrary" */;
+			buildPhases = (
+				999E4B2F1DD83A010085C437 /* Sources */,
+				999E4B301DD83A010085C437 /* Frameworks */,
+				999E4B311DD83A010085C437 /* Headers */,
+				999E4B321DD83A010085C437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tohoyaLibrary;
+			productName = tohoyaLibrary;
+			productReference = 999E4B341DD83A010085C437 /* tohoyaLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		999E4B2B1DD83A010085C437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jin Youngho";
+				TargetAttributes = {
+					999E4B331DD83A010085C437 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 999E4B2E1DD83A010085C437 /* Build configuration list for PBXProject "tohoyaLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 999E4B2A1DD83A010085C437;
+			productRefGroup = 999E4B351DD83A010085C437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				999E4B331DD83A010085C437 /* tohoyaLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		999E4B321DD83A010085C437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998753461DD86C5E00662F6D /* LHWebViewMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		999E4B2F1DD83A010085C437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998753301DD86AF500662F6D /* JwConnectionJson.swift in Sources */,
+				998753491DD86C5E00662F6D /* MBProgressHUD.swift in Sources */,
+				998753381DD86C2D00662F6D /* JwWebViewNavigationController.swift in Sources */,
+				9987534C1DD86C5E00662F6D /* NSObject+PerformForSwift.m in Sources */,
+				998753341DD86BF900662F6D /* JwUtility.swift in Sources */,
+				9987534D1DD86C5E00662F6D /* Reachability.swift in Sources */,
+				998753361DD86C0D00662F6D /* JwWebViewController.swift in Sources */,
+				9987533A1DD86C4000662F6D /* JwWkWebViewController.swift in Sources */,
+				998753321DD86BE100662F6D /* JwConnectionSessionJson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		999E4B3A1DD83A010085C437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		999E4B3B1DD83A010085C437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		999E4B3D1DD83A010085C437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = tohoyaLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.tohoyaLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		999E4B3E1DD83A010085C437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = tohoyaLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.tohoyaLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		999E4B2E1DD83A010085C437 /* Build configuration list for PBXProject "tohoyaLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999E4B3A1DD83A010085C437 /* Debug */,
+				999E4B3B1DD83A010085C437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999E4B3C1DD83A010085C437 /* Build configuration list for PBXNativeTarget "tohoyaLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999E4B3D1DD83A010085C437 /* Debug */,
+				999E4B3E1DD83A010085C437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 999E4B2B1DD83A010085C437 /* Project object */;
+}
