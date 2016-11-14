@@ -15,7 +15,7 @@ import UIKit
 
 @objc class JwConnectionSessionJson: NSObject, MBProgressHUDDelegate {
     
-    var lhUtil: LHUtility? = LHUtility()
+    var lhUtil: JwUtility? = JwUtility()
     var delegate: JwConnectionSessionJsonDelegate? = nil
     var load_url: String = ""
     var reachability: Reachability?

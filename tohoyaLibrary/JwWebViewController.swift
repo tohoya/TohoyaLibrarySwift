@@ -11,7 +11,7 @@ import UIKit
 @objc class JwWebViewController: UIViewController, UIWebViewDelegate , UIAlertViewDelegate/*, MBProgressHUDDelegate*/ {
     
     //    var HUD: MBProgressHUD?
-    var lhUtil: LHUtility = LHUtility()
+    var lhUtil: JwUtility? = JwUtility()
     @IBOutlet var backBarButtonItem: UIBarButtonItem?
     @IBOutlet var forwardBarButtonItem: UIBarButtonItem?
     @IBOutlet var reloadBarButtonItem: UIBarButtonItem?

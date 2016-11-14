@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6130FB1DD960B4006B0C4A /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D6130FA1DD960B4006B0C4A /* CommonCrypto.xcconfig */; };
+		4D6130FE1DD96153006B0C4A /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6130F21DD96037006B0C4A /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		998753301DD86AF500662F6D /* JwConnectionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987532F1DD86AF500662F6D /* JwConnectionJson.swift */; };
 		998753321DD86BE100662F6D /* JwConnectionSessionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753311DD86BE100662F6D /* JwConnectionSessionJson.swift */; };
 		998753341DD86BF900662F6D /* JwUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753331DD86BF900662F6D /* JwUtility.swift */; };
@@ -24,11 +26,23 @@
 		999E4B391DD83A010085C437 /* tohoyaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 999E4B371DD83A010085C437 /* tohoyaLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4D6130FC1DD96117006B0C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999E4B2B1DD83A010085C437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6130F11DD96037006B0C4A;
+			remoteInfo = CommonCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		99106D9A1DD8B74400F66E5B /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
-		99106D9B1DD8B80D00F66E5B /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphoneos.modulemap; path = tohoyaLibrary/iphoneos.modulemap; sourceTree = "<group>"; };
-		99106D9C1DD8B83900F66E5B /* iphonesimulator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphonesimulator.modulemap; path = tohoyaLibrary/iphonesimulator.modulemap; sourceTree = "<group>"; };
-		99106D9D1DD8B85400F66E5B /* macosx.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = macosx.modulemap; path = tohoyaLibrary/macosx.modulemap; sourceTree = "<group>"; };
+		4D6130F21DD96037006B0C4A /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6130F51DD96037006B0C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6130FA1DD960B4006B0C4A /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		4D6130FF1DD9619A006B0C4A /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		4D6131001DD961AE006B0C4A /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
+		4D6131011DD961C3006B0C4A /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
 		9987532F1DD86AF500662F6D /* JwConnectionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwConnectionJson.swift; sourceTree = "<group>"; };
 		998753311DD86BE100662F6D /* JwConnectionSessionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwConnectionSessionJson.swift; sourceTree = "<group>"; };
 		998753331DD86BF900662F6D /* JwUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JwUtility.swift; sourceTree = "<group>"; };
@@ -49,31 +63,41 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		999E4B301DD83A010085C437 /* Frameworks */ = {
+		4D6130EE1DD96037006B0C4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		999E4B301DD83A010085C437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6130FE1DD96153006B0C4A /* CommonCrypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99106D9E1DD8B88D00F66E5B /* CommonCrypto */ = {
+		4D6130F31DD96037006B0C4A /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				99106D9B1DD8B80D00F66E5B /* iphoneos.modulemap */,
-				99106D9C1DD8B83900F66E5B /* iphonesimulator.modulemap */,
-				99106D9D1DD8B85400F66E5B /* macosx.modulemap */,
+				4D6130FA1DD960B4006B0C4A /* CommonCrypto.xcconfig */,
+				4D6130F51DD96037006B0C4A /* Info.plist */,
+				4D6130FF1DD9619A006B0C4A /* iphoneos.modulemap */,
+				4D6131001DD961AE006B0C4A /* iphonesimulator.modulemap */,
+				4D6131011DD961C3006B0C4A /* macosx.modulemap */,
 			);
-			name = CommonCrypto;
+			path = CommonCrypto;
 			sourceTree = "<group>";
 		};
 		999E4B2A1DD83A010085C437 = {
 			isa = PBXGroup;
 			children = (
-				99106D9E1DD8B88D00F66E5B /* CommonCrypto */,
 				999E4B361DD83A010085C437 /* tohoyaLibrary */,
+				4D6130F31DD96037006B0C4A /* CommonCrypto */,
 				999E4B351DD83A010085C437 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				999E4B341DD83A010085C437 /* tohoyaLibrary.framework */,
+				4D6130F21DD96037006B0C4A /* CommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +130,6 @@
 				998753421DD86C5D00662F6D /* Reachability.swift */,
 				998753431DD86C5D00662F6D /* Reavhability.h */,
 				998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */,
-				99106D9A1DD8B74400F66E5B /* CommonCrypto.xcconfig */,
 			);
 			path = tohoyaLibrary;
 			sourceTree = "<group>";
@@ -113,6 +137,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4D6130EF1DD96037006B0C4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		999E4B311DD83A010085C437 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +159,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4D6130F11DD96037006B0C4A /* CommonCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6130F91DD96037006B0C4A /* Build configuration list for PBXNativeTarget "CommonCrypto" */;
+			buildPhases = (
+				4D6130ED1DD96037006B0C4A /* Sources */,
+				4D6130EE1DD96037006B0C4A /* Frameworks */,
+				4D6130EF1DD96037006B0C4A /* Headers */,
+				4D6130F01DD96037006B0C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCrypto;
+			productName = CommonCrypto;
+			productReference = 4D6130F21DD96037006B0C4A /* CommonCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		999E4B331DD83A010085C437 /* tohoyaLibrary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 999E4B3C1DD83A010085C437 /* Build configuration list for PBXNativeTarget "tohoyaLibrary" */;
@@ -140,6 +189,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4D6130FD1DD96117006B0C4A /* PBXTargetDependency */,
 			);
 			name = tohoyaLibrary;
 			productName = tohoyaLibrary;
@@ -155,6 +205,10 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jin Youngho";
 				TargetAttributes = {
+					4D6130F11DD96037006B0C4A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					999E4B331DD83A010085C437 = {
 						CreatedOnToolsVersion = 8.1;
 						LastSwiftMigration = 0810;
@@ -175,11 +229,20 @@
 			projectRoot = "";
 			targets = (
 				999E4B331DD83A010085C437 /* tohoyaLibrary */,
+				4D6130F11DD96037006B0C4A /* CommonCrypto */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D6130F01DD96037006B0C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6130FB1DD960B4006B0C4A /* CommonCrypto.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		999E4B321DD83A010085C437 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,6 +254,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D6130ED1DD96037006B0C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		999E4B2F1DD83A010085C437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,7 +279,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4D6130FD1DD96117006B0C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6130F11DD96037006B0C4A /* CommonCrypto */;
+			targetProxy = 4D6130FC1DD96117006B0C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4D6130F71DD96037006B0C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6130FA1DD960B4006B0C4A /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CommonCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.CommonCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D6130F81DD96037006B0C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6130FA1DD960B4006B0C4A /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CommonCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.CommonCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		999E4B3A1DD83A010085C437 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,6 +477,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D6130F91DD96037006B0C4A /* Build configuration list for PBXNativeTarget "CommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6130F71DD96037006B0C4A /* Debug */,
+				4D6130F81DD96037006B0C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		999E4B2E1DD83A010085C437 /* Build configuration list for PBXProject "tohoyaLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

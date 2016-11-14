@@ -11,7 +11,7 @@ import WebKit
 @objc class JwWkWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, MBProgressHUDDelegate {
     
     var HUD: MBProgressHUD?
-    var lhUtil: LHUtility = LHUtility()
+    var lhUtil: JwUtility? = JwUtility()
     var load_url: String? = ""
     var reachability: Reachability?
     var isNetwork: Bool = true

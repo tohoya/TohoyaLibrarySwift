@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import CommonCrypto
 
 extension UIColor {
     convenience init(hex:String) {
@@ -47,6 +48,7 @@ extension UIColor {
     }
     
 }
+
 extension String {
     func MD5() -> String {
         let str = self.cString(using: String.Encoding.utf8)
@@ -102,7 +104,7 @@ extension Dictionary {
 
 extension UILabel {
     func sizeWithFont(_ text:String?, font:UIFont, width:CGFloat) -> CGSize {
-        let lhutil:LHUtility = LHUtility()
+        let lhutil:JwUtility = JwUtility()
         return lhutil.sizeWithFont(text, font: font, width: width)
     }
 }
@@ -121,7 +123,7 @@ extension Date {
 }
 
 
-@objc class LHUtility: NSObject, NSFetchedResultsControllerDelegate {
+@objc class JwUtility: NSObject, NSFetchedResultsControllerDelegate {
     
     func md5(_ string: String) ->String {
         return string.MD5()

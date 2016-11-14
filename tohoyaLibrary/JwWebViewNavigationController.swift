@@ -11,7 +11,7 @@ import UIKit
 @objc class JwWebViewNavigationController: UIViewController, UIWebViewDelegate , UIAlertViewDelegate/*, MBProgressHUDDelegate*/ {
     
     //    var HUD: MBProgressHUD?
-    var lhUtil: LHUtility = LHUtility()
+    var lhUtil: JwUtility = JwUtility()
     var backBarButtonItem: UIBarButtonItem?
     var forwardBarButtonItem: UIBarButtonItem?
     var reloadBarButtonItem: UIBarButtonItem?
@@ -30,7 +30,7 @@ import UIKit
         //        self.backBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Rewind, target: self, action: "goBackPage:")
         //        self.forwardBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FastForward, target: self, action: "goForwardPage:")
         self.reloadBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: self, action: #selector(JwWebViewNavigationController.reloadPage(_:)))
-        self.stopBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.stop, target: self, action: #selector(LHWebViewController.stopLoading(_:)))
+        self.stopBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.stop, target: self, action: #selector(JwWebViewController.stopLoading(_:)))
         
         self.backBarButtonItem?.isEnabled = false
         self.forwardBarButtonItem?.isEnabled = false
@@ -68,13 +68,13 @@ import UIKit
         self.backBarButtonItem?.isEnabled = (self.webView?.canGoBack)!
         self.forwardBarButtonItem?.isEnabled = (self.webView?.canGoForward)!
         self.navigationItem.rightBarButtonItems = [self.reloadBarButtonItem!]
-        print("[ LHWebViewController : webViewDidFinishLoad ]")
+        print("[ JwWebViewController : webViewDidFinishLoad ]")
         //HUD?.hide(true, afterDelay: 0.1)
     }
     
     func loadChangeStart() {
         self.navigationItem.rightBarButtonItems = [self.stopBarButtonItem!]
-        print("[ LHWebViewController : webViewDidStartLoad ]")
+        print("[ JwWebViewController : webViewDidStartLoad ]")
         /*if HUD != nil {
          HUD?.removeFromSuperview()
          HUD = nil
@@ -94,14 +94,14 @@ import UIKit
     }
     
     func webPageLoaderUrlToString(_ url: String) {
-        print("[ LHWebViewController : webPageLoaderUrlToString ( \(url) ) ]")
+        print("[ JwWebViewController : webPageLoaderUrlToString ( \(url) ) ]")
         self.webView?.stopLoading()
         self.webView?.loadRequest(URLRequest(url: URL(string: url)!))
     }
     
     // MARK : MBProgressHUD
     /*func hudWasHidden(hud: MBProgressHUD) {
-     print("[ LHWebViewController : hudWasHidden ]")
+     print("[ JwWebViewController : hudWasHidden ]")
      HUD?.removeFromSuperview()
      HUD = nil
      }*/
@@ -112,7 +112,7 @@ import UIKit
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
-        print("[ LHWebViewController : didFailLoadWithError ]")
+        print("[ JwWebViewController : didFailLoadWithError ]")
         if(error._code != -999) {
             print("Web Error Code : \(error._code)")
             if let viewController = self.view.window!.rootViewController {
