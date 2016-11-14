@@ -21,8 +21,6 @@
 		9987534B1DD86C5E00662F6D /* NSObject+PerformForSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9987534C1DD86C5E00662F6D /* NSObject+PerformForSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */; };
 		9987534D1DD86C5E00662F6D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998753421DD86C5D00662F6D /* Reachability.swift */; };
-		9987534E1DD86C5E00662F6D /* Reavhability.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753431DD86C5D00662F6D /* Reavhability.h */; };
-		998753A21DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		999E4B391DD83A010085C437 /* tohoyaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 999E4B371DD83A010085C437 /* tohoyaLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -55,8 +53,6 @@
 		998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformForSwift.h"; sourceTree = "<group>"; };
 		998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformForSwift.m"; sourceTree = "<group>"; };
 		998753421DD86C5D00662F6D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		998753431DD86C5D00662F6D /* Reavhability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reavhability.h; sourceTree = "<group>"; };
-		998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tohoyaLibrary-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		999E4B341DD83A010085C437 /* tohoyaLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tohoyaLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		999E4B371DD83A010085C437 /* tohoyaLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tohoyaLibrary.h; sourceTree = "<group>"; };
 		999E4B381DD83A010085C437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,8 +124,6 @@
 				998753401DD86C5D00662F6D /* NSObject+PerformForSwift.h */,
 				998753411DD86C5D00662F6D /* NSObject+PerformForSwift.m */,
 				998753421DD86C5D00662F6D /* Reachability.swift */,
-				998753431DD86C5D00662F6D /* Reavhability.h */,
-				998753A11DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h */,
 			);
 			path = tohoyaLibrary;
 			sourceTree = "<group>";
@@ -148,8 +142,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9987534E1DD86C5E00662F6D /* Reavhability.h in Headers */,
-				998753A21DD8744C00662F6D /* tohoyaLibrary-Swift-Bridging-Header.h in Headers */,
 				999E4B391DD83A010085C437 /* tohoyaLibrary.h in Headers */,
 				9987534B1DD86C5E00662F6D /* NSObject+PerformForSwift.h in Headers */,
 				9987534A1DD86C5E00662F6D /* MBProgressHUDForSwift-Bridging-Header.h in Headers */,
@@ -300,7 +292,7 @@
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.CommonCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -320,6 +312,7 @@
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tohoya.CommonCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -484,6 +477,7 @@
 				4D6130F81DD96037006B0C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		999E4B2E1DD83A010085C437 /* Build configuration list for PBXProject "tohoyaLibrary" */ = {
 			isa = XCConfigurationList;
